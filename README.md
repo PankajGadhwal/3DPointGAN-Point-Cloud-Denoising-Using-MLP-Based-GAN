@@ -1,9 +1,5 @@
 # 3DPointGAN: Point Cloud Denoising Using MLP-Based GAN
 
-**Authors:** Dewansh Kumar, Pankaj, Aayush Prakash Parmar  
-**Advisors:** Prof. Shanmuganathan Raman, Mrs. Seema Kumari  
-**Institution:** IIT Gandhinagar
-
 ---
 
 ## Overview
