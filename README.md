@@ -58,5 +58,16 @@ The model was evaluated under varying levels of Gaussian noise. The performance 
 - Generalize the framework to other domains such as medical imaging and aerial mapping.
 
 
-## Project Structure
+## Contributors
+  
+- Pankaj
+- Aayush Prakash Parmar
+- Dewansh Kumar
 
+
+## References
+
+1. Luo, S., and Hu, W. ”Score-Based Point Cloud Denoising.” arXiv preprint arXiv:2107.10981, 2021. https://doi.org/10.48550/arXiv.2107.10981
+2. ”P2P-Bridge: Diffusion Bridges for 3D Point Cloud Denoising,” Github.io, 2024. https://p2p-bridge.github.io/
+3. Xiao, Z., Kreis, K., and Vahdat, A. ”Tackling the Generative Learning Trilemma with Denoising Diffusion GANs,” ICLR 2022 Spotlight Paper. https://github. com/NVlabs/denoising-diffusion-gan
+4. “A Review of Generative Adversarial Networks (Part 1),” Medium, 2020. https://medium.com/analytics-vidhya/a-review-of-generative-adversarial-networks-part-1-a3e5757a3dc2
