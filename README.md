@@ -17,23 +17,19 @@ Point cloud data, commonly used in 3D scanning and perception tasks, often suffe
 
 ### GAN Architecture
 
-**Generator:**
+- We developed a GAN-based framework for 3D point cloud denoising, consisting of a Generator and a Discriminator network.
+- Generator Network features an encoder-decoder architecture with residual blocks to learn robust feature representations.
+- Incorporates a multi-head attention mechanism to capture spatial dependencies and improve denoising performance.
+![image](https://github.com/user-attachments/assets/253d4c11-927c-41e7-9843-4697d8a71136)
+![image](https://github.com/user-attachments/assets/afe69619-2fdd-4a51-a7a9-7812fbd7b5b2)
+- Discriminator Network extracts local point features through residual blocks and evaluates them through a fully connected network to distinguish between real and generated point clouds.
+- The Training Process uses adversarial loss to encourage realistic outputs from the generator, and an additional L1 loss to ensure geometric accuracy. Both networks are optimized using Adam optimizers for stable   and effective training.
 
-- Encoder-decoder architecture with residual blocks.
-- Multi-head attention mechanism to capture spatial dependencies.
-- Outputs clean point clouds from noisy inputs.
 
-**Discriminator:**
 
-- Extracts local geometric features using residual blocks.
-- Fully connected layers assess whether the point cloud is real or generated.
+### Qualatitive Results
+![image](https://github.com/user-attachments/assets/f0d03e97-3f27-4930-a5de-9f0365b2352c)
 
-### Loss Functions
-
-- **Adversarial Loss:** Encourages the generator to produce realistic outputs.
-- **L1 Loss:** Ensures geometric similarity between output and ground truth.
-
-The networks are trained using the Adam optimizer for stability and efficiency.
 
 
 ## Results
@@ -48,7 +44,7 @@ The model was evaluated under varying levels of Gaussian noise. The performance 
 
 - The model maintained stable reconstruction quality even when noise levels were tripled.
 - Performance remained competitive compared to other learning-based methods.
-- Strong correlation between both evaluation metrics indicates consistent geometric preservation.
+A strong correlation between both evaluation metrics indicates consistent geometric preservation.
 
 
 ## Future Work
