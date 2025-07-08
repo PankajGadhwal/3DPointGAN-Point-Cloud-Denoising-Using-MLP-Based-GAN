@@ -41,7 +41,7 @@ The model was evaluated under varying levels of Gaussian noise. The performance 
 | 0.01             | 6.8                      | 5.9                           |
 | 0.02             | 7.6                      | 6.8                           |
 | 0.03             | 8.3                      | 7.7                           |
-
+![image](https://github.com/user-attachments/assets/3c11bc84-e07c-490c-baeb-06eef7cf3546)
 - The model maintained stable reconstruction quality even when noise levels were tripled.
 - Performance remained competitive compared to other learning-based methods.
 A strong correlation between both evaluation metrics indicates consistent geometric preservation.
