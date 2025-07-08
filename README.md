@@ -18,8 +18,11 @@ Point cloud data, commonly used in 3D scanning and perception tasks, often suffe
 - We developed a GAN-based framework for 3D point cloud denoising, consisting of a Generator and a Discriminator network.
 - Generator Network features an encoder-decoder architecture with residual blocks to learn robust feature representations.
 - Incorporates a multi-head attention mechanism to capture spatial dependencies and improve denoising performance.
+
+  
 ![image](https://github.com/user-attachments/assets/253d4c11-927c-41e7-9843-4697d8a71136)
 
+-
 
 ![image](https://github.com/user-attachments/assets/afe69619-2fdd-4a51-a7a9-7812fbd7b5b2)
 
@@ -43,6 +46,7 @@ The model was evaluated under varying levels of Gaussian noise. The performance 
 | 0.01             | 6.8                      | 5.9                           |
 | 0.02             | 7.6                      | 6.8                           |
 | 0.03             | 8.3                      | 7.7                           |
+
 ![image](https://github.com/user-attachments/assets/3c11bc84-e07c-490c-baeb-06eef7cf3546)
 - The model maintained stable reconstruction quality even when noise levels were tripled.
 - Performance remained competitive compared to other learning-based methods.
